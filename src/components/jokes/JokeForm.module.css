@@ -15,12 +15,14 @@
 
 .control {
   margin-bottom: 0.5rem;
+  
 }
 
 .control label {
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
+  color:#000000
 }
 
 .control input,

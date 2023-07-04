@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #353535;
+  color: #a39898;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focused {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #858282;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #858282;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover,
+.btn:active {
+  color: black;
+  transition: all 0.3s ease 0s;
+  background-color: #b8b3b3;
+  border-color: #b8b3b3;
+}
+
+.btn--empty {
+  cursor: pointer;
+  font: inherit;
+  color: #c5c5c5;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.btn--empty:hover,
+.btn--empty:active {
+  background-color: #cacaca;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sort {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #000000;
+  margin-bottom: 2rem;
+}
+
+.sort button {
+  font: inherit;
+  color: #b1b1b1;
+  border: 1px solid #c0c0c0;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.sort button:hover {
+  background-color: #b8b8b8;
+  transition: all 0.3s ease 0s;
+  color: #535353;
+}
